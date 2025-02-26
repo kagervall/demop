@@ -20,3 +20,5 @@ RoxygenNote: 7.3.2
 Roxygen: list(markdown = TRUE)
 Depends: 
     R (>= 3.5)
+URL: https://github.com/kagervall/demop
+BugReports: https://github.com/kagervall/demop/issues
