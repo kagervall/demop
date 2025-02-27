@@ -23,7 +23,7 @@
 #' }
 slurp_excel <- function(fnames, ...) {
   result_list <- lapply(fnames, readxl::read_excel, ...)
-  result_df <-  bind_rows(res)
+  result_df <-  dplyr::bind_rows(result_list)
   return(result_df)
 }
 
